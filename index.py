@@ -24,7 +24,7 @@ def sqlCon():
     cursor.execute(selectAll)
     cnx.commit()
     cursor.close()
-    cnx.close()
+    #cnx.close()
 #main
 sqlCon()
 
