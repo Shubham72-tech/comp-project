@@ -7,7 +7,7 @@ mydb = mysql.connector.connect(
   passwd="12345678",
   database="compProject"
 )
-def printAllUsers()
+def printAllUsers():
     mycursor = mydb.cursor()
     mycursor.execute("SELECT * FROM users")
     myresult = mycursor.fetchall()
