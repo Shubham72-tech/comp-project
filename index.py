@@ -22,7 +22,7 @@ def clearScreen():
 
 def sqlCon():
     cursor.execute(selectAll)
-    cnx.commit()
+#    cnx.commit()
     cursor.close()
     #cnx.close()
 #main
