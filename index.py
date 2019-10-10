@@ -3,7 +3,7 @@ import getch
 import os
 import mysql.connector
 
-cnx = mysql.connector.connect(user='compProject', password='12345678', host='eventdips.ml', database='compProject')
+cnx = mysql.connector.connect(user='compProject', password='12345678', host='localhost', database='compProject')
 cursor = cnx.cursor()
 selectAll="SELECT * FROM `users` WHERE 1;"
 
