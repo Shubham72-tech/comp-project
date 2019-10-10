@@ -41,10 +41,10 @@ def Menu():
     else:
         print("Try Again or press q to quit ")
         time.sleep(5)
-        if os.name == 'nt':
-            os.system('cls')
-        else:
-            os.system('clear')
-	    Menu()
+        #if os.name == 'nt':
+        #    os.system('cls')
+        #else:
+        #    os.system('clear')
+        Menu()            
 #main
 Menu()
